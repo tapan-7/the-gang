@@ -26,7 +26,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#D9B76B",
     placeholderSvg: "dushmanta",
-    image: "/Office/dushmanta.jpg"
+    image: "/avatars/dushmanta.jpg"
   },
   {
     id: "paresh",
@@ -51,7 +51,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#C96E59",
     placeholderSvg: "paresh",
-    image: "/Office/paresh.jpg"
+    image: "/avatars/paresh.jpg"
   },
   {
     id: "shyamalendu",
@@ -76,7 +76,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#8199A8",
     placeholderSvg: "shyamalendu",
-    image: "/Office/shyamalendu.jpg"
+    image: "/avatars/shyamalendu.jpg"
   },
   {
     id: "astha",
@@ -102,7 +102,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#9AA48D",
     placeholderSvg: "astha",
-    image: "/Office/astha.jpg"
+    image: "/avatars/astha.jpg"
   },
   {
     id: "asutosh",
@@ -126,7 +126,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#79846C",
     placeholderSvg: "asutosh",
-    image: "/Office/asutosh.jpg"
+    image: "/avatars/asutosh.jpg"
   },
   {
     id: "ashutosh",
@@ -151,7 +151,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#D9B76B",
     placeholderSvg: "ashutosh",
-    image: "/Office/ashutosh.jpg"
+    image: "/avatars/ashutosh.jpg"
   },
   {
     id: "arpita",
@@ -186,7 +186,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#C96E59",
     placeholderSvg: "arpita",
-    image: "/Office/arpita.jpg"
+    image: "/avatars/arpita.jpg"
   },
   {
     id: "subhashree",
@@ -212,7 +212,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#8199A8",
     placeholderSvg: "subhashree",
-    image: "/Office/subhashree.jpg"
+    image: "/avatars/subhashree.jpg"
   },
   {
     id: "soumya",
@@ -244,7 +244,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#59483D",
     placeholderSvg: "soumya",
-    image: "/Office/soumya.jpg"
+    image: "/avatars/soumya.jpg"
   },
   {
     id: "niyaz",
@@ -268,7 +268,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#DF8D7A",
     placeholderSvg: "niyaz",
-    image: "/Office/niyaz.jpg"
+    image: "/avatars/niyaz.jpg"
   },
   {
     id: "jayashree",
@@ -292,7 +292,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#9AA48D",
     placeholderSvg: "jayashree",
-    image: "/Office/jayashree.png"
+    image: "/avatars/jayashree.png"
   },
   {
     id: "tanu",
@@ -316,7 +316,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#D9B76B",
     placeholderSvg: "tanu",
-    image: "/Office/tanu.jpg"
+    image: "/avatars/tanu.jpg"
   },
   {
     id: "tapan",
@@ -343,7 +343,7 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#C96E59",
     placeholderSvg: "tapan",
-    image: "/Office/luffy.jpg"
+    image: "/avatars/luffy.jpg"
   },
   {
     id: "yash",
@@ -366,6 +366,6 @@ export const CHARACTERS: Character[] = [
     ],
     avatarColor: "#8199A8",
     placeholderSvg: "yash",
-    image: "/Office/yash.jpg"
+    image: "/avatars/yash.jpg"
   }
 ];

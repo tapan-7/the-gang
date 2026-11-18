@@ -96,6 +96,7 @@ export const SceneCover: React.FC = () => {
       >
         <div className="hidden lg:block -translate-x-12 -rotate-6">
           <Polaroid
+            imageSrc="/bachelorette/IMG-20261116-WA0002.jpg"
             caption="Gopalpur Sunrise 🌊"
             subcaption="UNO-2026 • Mayfair"
             rotation={-6}
@@ -106,6 +107,7 @@ export const SceneCover: React.FC = () => {
         </div>
         <div className="hidden lg:block translate-x-12 rotate-8">
           <Polaroid
+            imageSrc="/lunch/IMG_20260220_132922747.jpg"
             caption="The Merged Tables 🍱"
             subcaption="1:00 PM • Cafeteria"
             rotation={8}

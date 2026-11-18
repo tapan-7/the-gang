@@ -83,7 +83,7 @@ export const ChapterNav: React.FC = () => {
             </div>
 
             {/* Chapter List */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-6">
               {CHAPTERS.map((ch) => (
                 <button
                   key={ch.id}
@@ -111,6 +111,17 @@ export const ChapterNav: React.FC = () => {
                   </p>
                 </button>
               ))}
+            </div>
+
+            {/* Direct Vault Jump */}
+            <div className="pt-4 border-t border-ink/15 text-center">
+              <button
+                onClick={() => handleSelectChapter("gallery")}
+                className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-terracotta text-parchment font-display font-bold text-xs tracking-wider uppercase shadow hover:bg-terracotta-dark transition-colors"
+              >
+                <span>📸 Open The Photo Vault (All Keepsakes)</span>
+                <span>→</span>
+              </button>
             </div>
           </div>
         </div>

@@ -108,21 +108,14 @@ export const SceneChapter06_Arpita: React.FC = () => {
 
             <div className="flex justify-center">
               <Polaroid
+                imageSrc="/bachelorette/IMG-20261115-WA1167.jpg"
                 caption="Operation Arpita Queen 👑"
-                subcaption="Mayfair Gopalpur • 2026"
+                subcaption="Mayfair Gopalpur • Nov 2026"
                 rotation={2}
                 tapeColor="mustard"
                 tapePosition="top-right"
                 className="w-full max-w-sm"
-              >
-                <div className="w-full h-full p-6 flex flex-col items-center justify-center bg-paper-aged text-center">
-                  <span className="text-4xl mb-2">🐧❤️</span>
-                  <span className="font-display font-bold text-lg text-ink">Bachelorette Tiara</span>
-                  <span className="font-handwritten text-base text-ink-muted mt-1">
-                    "Happy tears, cake, and memories forever."
-                  </span>
-                </div>
-              </Polaroid>
+              />
             </div>
           </div>
         </div>

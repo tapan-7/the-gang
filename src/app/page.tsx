@@ -7,6 +7,7 @@ import { SceneChapter05_Tree } from "@/components/scenes/SceneChapter05_Tree";
 import { SceneChapter06_Arpita } from "@/components/scenes/SceneChapter06_Arpita";
 import { SceneChapter07_Adventures } from "@/components/scenes/SceneChapter07_Adventures";
 import { SceneChapter08_Life } from "@/components/scenes/SceneChapter08_Life";
+import { MemoryGallery } from "@/components/gallery/MemoryGallery";
 import { SceneChapter09_Final } from "@/components/scenes/SceneChapter09_Final";
 
 export default function Home() {
@@ -38,6 +39,9 @@ export default function Home() {
 
       {/* 8. Chapter 08: Life Happens (Diverging Paths, Unbroken Ties) */}
       <SceneChapter08_Life />
+
+      {/* The Scrapbook Photo Vault (All Real Photographs by Category) */}
+      <MemoryGallery />
 
       {/* 9. Chapter 09: The Final Scrapbook (Master Roster & Closing Letter) */}
       <SceneChapter09_Final />

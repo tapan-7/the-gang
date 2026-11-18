@@ -81,21 +81,14 @@ export const SceneChapter07_Adventures: React.FC = () => {
 
               <div className="flex justify-center">
                 <Polaroid
+                  imageSrc="/outings/DSC_3379-1.JPG"
                   caption="Koraput Summit 🏔️"
                   subcaption="Care in quiet moments"
                   rotation={-2}
                   tapeColor="sage"
                   tapePosition="top-center"
                   className="w-full max-w-sm"
-                >
-                  <div className="w-full h-full p-6 flex flex-col items-center justify-center bg-paper-aged text-ink text-center">
-                    <span className="text-4xl mb-2">🥾⛰️</span>
-                    <span className="font-display font-bold text-lg text-ink">Koraput High Trail</span>
-                    <span className="font-handwritten text-base text-ink-muted mt-1">
-                      "Tapan, Astha, Dushmanta, Niyaz, Yash, Arpita"
-                    </span>
-                  </div>
-                </Polaroid>
+                />
               </div>
             </div>
           </div>
@@ -109,21 +102,14 @@ export const SceneChapter07_Adventures: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
               <div className="order-2 lg:order-1 flex justify-center">
                 <Polaroid
+                  imageSrc="/outings/IMG-20260717-WA0046.jpg"
                   caption="Home Feasts & Holi Colors 🎨"
                   subcaption="Ashutosh's Home"
                   rotation={3}
                   tapeColor="terracotta"
                   tapePosition="top-left"
                   className="w-full max-w-sm"
-                >
-                  <div className="w-full h-full p-6 flex flex-col items-center justify-center bg-paper-aged text-ink text-center">
-                    <span className="text-4xl mb-2">🍛🎉</span>
-                    <span className="font-display font-bold text-lg text-ink">Mom's Feast & Holi Gulal</span>
-                    <span className="font-handwritten text-base text-ink-muted mt-1">
-                      "Welcomed with love, fed like family."
-                    </span>
-                  </div>
-                </Polaroid>
+                />
               </div>
 
               <div className="order-1 lg:order-2">

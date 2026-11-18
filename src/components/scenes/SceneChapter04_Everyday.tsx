@@ -4,7 +4,6 @@ import React from "react";
 import { Polaroid } from "../scrapbook/Polaroid";
 import { WashiTape } from "../scrapbook/WashiTape";
 import { StampBadge } from "../scrapbook/StampBadge";
-import { HandwrittenNote } from "../scrapbook/HandwrittenNote";
 
 export const SceneChapter04_Everyday: React.FC = () => {
   return (
@@ -38,7 +37,7 @@ export const SceneChapter04_Everyday: React.FC = () => {
           </p>
         </div>
 
-        {/* 2-Grid of the Core Daily Office Rituals */}
+        {/* 2-Grid of the Core Daily Office Rituals with Real Photos */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           {/* 1. Daily 1:00 PM Office Cafeteria Lunch */}
           <div className="relative bg-paper-card p-6 sm:p-8 rounded-scrapbook border border-ink/10 shadow-sm flex flex-col justify-between">
@@ -67,21 +66,14 @@ export const SceneChapter04_Everyday: React.FC = () => {
 
             <div className="flex justify-center">
               <Polaroid
+                imageSrc="/lunch/IMG_20260220_132922747.jpg"
                 caption="1:00 PM Lunch Army 🍱"
                 subcaption="Jayashree's Inspection"
                 rotation={-2}
                 tapeColor="mustard"
                 tapePosition="none"
                 className="w-full max-w-xs"
-              >
-                <div className="w-full h-full p-4 flex flex-col items-center justify-center bg-paper-aged text-center">
-                  <span className="text-3xl mb-1">🍱</span>
-                  <span className="font-display font-bold text-sm text-ink">Two Tables Merged</span>
-                  <span className="font-handwritten text-base text-ink-muted">
-                    "Tapan finished 3 portions before Syama finished his joke."
-                  </span>
-                </div>
-              </Polaroid>
+              />
             </div>
           </div>
 
@@ -112,31 +104,24 @@ export const SceneChapter04_Everyday: React.FC = () => {
 
             <div className="flex justify-center">
               <Polaroid
+                imageSrc="/tea%20breaks/IMG_20260526_171343471.jpg"
                 caption="4:30 PM Chai Break ☕"
                 subcaption="Roadside Tea Stall"
                 rotation={2}
                 tapeColor="terracotta"
                 tapePosition="none"
                 className="w-full max-w-xs"
-              >
-                <div className="w-full h-full p-4 flex flex-col items-center justify-center bg-paper-aged text-center">
-                  <span className="text-3xl mb-1">☕</span>
-                  <span className="font-display font-bold text-sm text-ink">Cutting Chai & Banter</span>
-                  <span className="font-handwritten text-base text-ink-muted">
-                    "Nothing beats stepping outside with the gang for hot chai."
-                  </span>
-                </div>
-              </Polaroid>
+              />
             </div>
           </div>
         </div>
 
-        {/* 3. Sunday Feasts & Couch Conversations */}
+        {/* 3. Sunday Feasts & Elevator Shenanigans */}
         <div className="bg-paper-aged/80 p-8 rounded-scrapbook border border-ink/10 shadow-inner">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-8">
             <div>
               <span className="font-handwritten text-2xl text-terracotta block">
-                Sundays & Movie Nights
+                Sundays & Room Feasts
               </span>
               <h3 className="font-display font-bold text-2xl sm:text-3xl text-ink mt-1">
                 Sunday Feasts in Paresh & Dushmanta's Room
@@ -154,21 +139,40 @@ export const SceneChapter04_Everyday: React.FC = () => {
 
             <div className="flex justify-center">
               <Polaroid
+                imageSrc="/lunch/IMG-20260822-WA0189.jpg"
                 caption="Room Feasts & Movie Debates 🍛"
                 subcaption="Dushmanta & Paresh's Room"
-                rotation={-1}
+                rotation={-1.5}
                 tapeColor="sage"
                 tapePosition="top-center"
                 className="w-full max-w-xs"
-              >
-                <div className="w-full h-full p-4 flex flex-col items-center justify-center bg-parchment text-center">
-                  <span className="text-3xl mb-1">🍲</span>
-                  <span className="font-display font-bold text-sm text-ink">Sunday Room Feasts</span>
-                  <span className="font-handwritten text-base text-ink-muted">
-                    "Full stomachs, endless laughs."
-                  </span>
-                </div>
-              </Polaroid>
+              />
+            </div>
+          </div>
+
+          {/* Elevator Gang Mini Feature */}
+          <div className="pt-6 border-t border-ink/15 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div className="max-w-md">
+              <div className="inline-flex items-center gap-2 mb-1">
+                <span className="text-xl">🛗</span>
+                <span className="font-display font-bold text-lg text-ink">
+                  The Elevator Gang Tradition
+                </span>
+              </div>
+              <p className="font-body text-xs text-ink-muted leading-relaxed">
+                Stuffing 14 people into a 10-person elevator, taking mirror selfies, and laughing until the doors open.
+              </p>
+            </div>
+            <div className="w-full sm:w-auto flex justify-center">
+              <Polaroid
+                imageSrc="/elevator%20photos/IMG-20261016-WA0083.jpg"
+                caption="Crammed in the Lift 🛗"
+                subcaption="Post-lunch elevator tradition"
+                rotation={2}
+                tapeColor="dusty-blue"
+                tapePosition="top-right"
+                className="w-52"
+              />
             </div>
           </div>
         </div>
@@ -176,4 +180,3 @@ export const SceneChapter04_Everyday: React.FC = () => {
     </section>
   );
 };
-

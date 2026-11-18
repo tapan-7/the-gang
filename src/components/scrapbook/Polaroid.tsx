@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { WashiTape } from "./WashiTape";
 
@@ -9,6 +10,7 @@ interface PolaroidProps {
   tapeColor?: "mustard" | "dusty-blue" | "terracotta" | "sage";
   tapePosition?: "top-left" | "top-right" | "top-center" | "none";
   className?: string;
+  imageSrc?: string;
   children?: React.ReactNode;
   aspectRatio?: "square" | "portrait" | "video";
 }
@@ -20,6 +22,7 @@ export const Polaroid: React.FC<PolaroidProps> = ({
   tapeColor = "mustard",
   tapePosition = "top-center",
   className,
+  imageSrc,
   children,
   aspectRatio = "square",
 }) => {
@@ -58,7 +61,15 @@ export const Polaroid: React.FC<PolaroidProps> = ({
           aspectStyles[aspectRatio]
         )}
       >
-        {children ? (
+        {imageSrc ? (
+          <Image
+            src={imageSrc}
+            alt={caption || "Memory photograph"}
+            fill
+            sizes="(max-width: 768px) 100vw, 450px"
+            className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+          />
+        ) : children ? (
           children
         ) : (
           <div className="flex flex-col items-center justify-center p-4 text-center select-none">
@@ -99,4 +110,3 @@ export const Polaroid: React.FC<PolaroidProps> = ({
     </div>
   );
 };
-

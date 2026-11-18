@@ -56,21 +56,14 @@ export const SceneChapter08_Life: React.FC = () => {
 
           <div className="flex justify-center">
             <Polaroid
+              imageSrc="/outings/IMG-20261002-WA0600.jpg"
               caption="The Bond Endures ❤️"
               subcaption="Once a gang, always a gang"
               rotation={1}
               tapeColor="terracotta"
               tapePosition="top-center"
               className="w-full max-w-xs"
-            >
-              <div className="w-full h-full p-4 flex flex-col items-center justify-center bg-paper-aged text-ink text-center">
-                <span className="text-3xl mb-1">🕊️✨</span>
-                <span className="font-display font-bold text-sm text-ink">New Chapters</span>
-                <span className="font-handwritten text-base text-ink-muted">
-                  "Friends for life."
-                </span>
-              </div>
-            </Polaroid>
+            />
           </div>
         </div>
       </div>

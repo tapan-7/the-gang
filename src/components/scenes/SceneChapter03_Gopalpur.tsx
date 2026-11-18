@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { Polaroid } from "../scrapbook/Polaroid";
 import { WashiTape } from "../scrapbook/WashiTape";
 import { StampBadge } from "../scrapbook/StampBadge";
-import { HandwrittenNote } from "../scrapbook/HandwrittenNote";
 
 export const SceneChapter03_Gopalpur: React.FC = () => {
   const [activeBeat, setActiveBeat] = useState<number>(1);
@@ -20,6 +19,7 @@ export const SceneChapter03_Gopalpur: React.FC = () => {
       subcaption: "Mayfair Grounds • Morning",
       tapeColor: "mustard" as const,
       rotation: -3,
+      imageSrc: "/bachelorette/IMG_20261114_192152888.jpg",
     },
     {
       id: 2,
@@ -27,10 +27,11 @@ export const SceneChapter03_Gopalpur: React.FC = () => {
       title: "The Pool Party & The 5 PM Lunch Sprint",
       summary: "Completing song lyrics, splashing, and tossing reluctant members into the shallow pool. We had so much fun we completely lost track of time and forgot lunch existed until 5:00 PM!",
       humor: "The Running Joke: 'We organized the entire retreat schedule. We forgot to schedule lunch.' We literally ate at 5 PM!",
-      photoCaption: "The 5:00 PM Lunch Sprint 🏊‍♂️",
+      photoCaption: "The Pool Party & 5 PM Lunch! 🏊‍♀️",
       subcaption: "Running Joke • 5 PM sharp!",
       tapeColor: "terracotta" as const,
       rotation: 2.5,
+      imageSrc: "/bachelorette/IMG_20261115_091828014.jpg",
     },
     {
       id: 3,
@@ -42,6 +43,7 @@ export const SceneChapter03_Gopalpur: React.FC = () => {
       subcaption: "Toasting our Penguin Mom",
       tapeColor: "dusty-blue" as const,
       rotation: -2,
+      imageSrc: "/bachelorette/IMG-20261115-WA0846.jpg",
     },
     {
       id: 4,
@@ -53,6 +55,7 @@ export const SceneChapter03_Gopalpur: React.FC = () => {
       subcaption: "Living Room Celebration",
       tapeColor: "sage" as const,
       rotation: 3,
+      imageSrc: "/bachelorette/IMG-20261115-WA1727.jpg",
     },
     {
       id: 5,
@@ -64,6 +67,7 @@ export const SceneChapter03_Gopalpur: React.FC = () => {
       subcaption: "Colleagues became family",
       tapeColor: "mustard" as const,
       rotation: -1.5,
+      imageSrc: "/bachelorette/IMG-20261116-WA0002.jpg",
     },
   ];
 
@@ -142,42 +146,14 @@ export const SceneChapter03_Gopalpur: React.FC = () => {
           {/* Left: Interactive Polaroid */}
           <div className="flex justify-center">
             <Polaroid
+              imageSrc={currentBeat.imageSrc}
               caption={currentBeat.photoCaption}
               subcaption={currentBeat.subcaption}
               rotation={currentBeat.rotation}
               tapeColor={currentBeat.tapeColor}
               tapePosition="top-center"
               className="w-full max-w-sm"
-            >
-              <div className="w-full h-full p-6 flex flex-col items-center justify-center bg-paper-aged text-ink text-center">
-                {currentBeat.id === 2 ? (
-                  /* Animated Spinning Clock for 5 PM Lunch Sprint */
-                  <div className="flex flex-col items-center">
-                    <div className="w-20 h-20 rounded-full border-4 border-ink flex items-center justify-center relative mb-3 bg-paper-card shadow-inner">
-                      <div className="w-1 h-7 bg-stamp-red origin-bottom absolute top-3 left-[38px] rotate-[150deg]" />
-                      <div className="w-1 h-9 bg-ink origin-bottom absolute top-1 left-[38px] rotate-[0deg]" />
-                      <div className="w-3 h-3 rounded-full bg-ink z-10" />
-                    </div>
-                    <span className="font-display font-extrabold text-2xl text-stamp-red">
-                      5:00 PM!
-                    </span>
-                    <span className="font-handwritten text-lg text-ink-muted">
-                      "We forgot lunch existed!"
-                    </span>
-                  </div>
-                ) : (
-                  <div className="flex flex-col items-center">
-                    <span className="text-4xl mb-2">🌊</span>
-                    <span className="font-display font-bold text-lg text-ink">
-                      {currentBeat.title}
-                    </span>
-                    <span className="font-handwritten text-base text-ink-muted mt-1">
-                      {currentBeat.time} • Mayfair Gopalpur
-                    </span>
-                  </div>
-                )}
-              </div>
-            </Polaroid>
+            />
           </div>
 
           {/* Right: Narrative Details */}
@@ -231,4 +207,3 @@ export const SceneChapter03_Gopalpur: React.FC = () => {
     </section>
   );
 };
-
