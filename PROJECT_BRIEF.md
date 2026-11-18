@@ -41,7 +41,7 @@ The experience brings together two harmonious aesthetics:
 2. **Chapter 02: The Great Expansion** — Tapan joins, new members arrive, personalities collide.
 3. **Chapter 03: Gopalpur: The Night Everything Changed** — Mayfair Hotel retreat, lawn preparation, pool party, the famous 5 PM lunch sprint, pyjama party, treasure hunt, ghost stories, sunrise.
 4. **Chapter 04: The Everyday Chaos** — Daily 1 PM office cafeteria lunch (merged tables & Jayashree's inspection), sacred 4:30 PM outside tea stall walk with the gang, couch conversations, Sunday cooking feasts, movie outings.
-5. **Chapter 05: The Gang Family Tree** — Interactive relationship web with running jokes (Adopted Sons, Bitter Half, 2 Musketeers).
+5. **Chapter 05: The Gang Family Tree** — Interactive relationship web with running jokes (Adopted Sons, Bitter Half, 3 Musketeers).
 6. **Chapter 06: Operation Arpita** — Mini-documentary of Arpita's bachelorette celebration at Gopalpur.
 7. **Chapter 07: The Adventures** — Koraput mountain trek (Tapan's leg massage for Arpita), Ashutosh's home feasts and Holi.
 8. **Chapter 08: Life Happens** — Career paths diverge, Arpita's wedding journey, the bond endures.

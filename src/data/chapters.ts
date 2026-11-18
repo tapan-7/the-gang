@@ -149,7 +149,7 @@ export const CHAPTERS: Chapter[] = [
       {
         id: "scene-5-1",
         title: "The Friendship Constellation",
-        description: "Interactive node graph connecting Arpita with her adopted sons (Dushmanta & Niyaz), the 'Bitter Half' bond (Shyamalendu & Asutosh), the '2 Musketeers' (Astha, Subhashree, Arpita), and the Invisible Man.",
+        description: "Interactive node graph connecting Arpita with her adopted sons (Dushmanta & Niyaz), the 'Bitter Half' bond (Shyamalendu & Asutosh), the '3 Musketeers' (Astha, Subhashree, Arpita), and the Invisible Man.",
         participants: ["All 14 Members"]
       }
     ],

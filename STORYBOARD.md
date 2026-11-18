@@ -126,7 +126,7 @@ This storyboard maps out the complete visual journey across all 9 chapters, deta
     - Clicking **Arpita** pulses golden strings to **Dushmanta** and **Niyaz** labeled *"Proud Adopted Sons"*.
     - Clicking **Shyamalendu** connects to **Asutosh** labeled *"Bitter Half"*.
     - Clicking **Paresh** and **Dushmanta** reveals *"The Bickering Couple"*.
-    - Clicking **Subhashree, Astha, and Arpita** highlights their bond labeled *"The 2 Musketeers"* (preserving the group's inside joke logic).
+    - Clicking **Subhashree, Astha, and Arpita** highlights their bond labeled *"The 3 Musketeers"* (preserving the group's inside joke logic).
     - Clicking **Tapan** activates an Easter egg where his avatar turns semi-transparent (*"The Invisible Man has entered the shadows"*).
 
 ---

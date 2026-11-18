@@ -218,7 +218,7 @@ This document details the visual, interaction, and technical study of the 23 des
 - **Typography**: Utilitarian sans with clean state toggles.
 - **Layout**: Interactive node-graph canvas with modal detail sheets.
 - **Interaction Techniques**: Character focus node: clicking a person isolates their direct edges, dims unrelated nodes, and displays their unique bond labels.
-- **What to Adapt**: The core mechanic for **Chapter 05: The Gang Family Tree**! Clicking Arpita highlights Dushmanta and Niyaz as "Adopted Sons", clicking Shyamalendu and Asutosh highlights their "Bitter Half" link, and clicking Astha/Subhashree/Arpita highlights the "2 Musketeers" joke.
+- **What to Adapt**: The core mechanic for **Chapter 05: The Gang Family Tree**! Clicking Arpita highlights Dushmanta and Niyaz as "Adopted Sons", clicking Shyamalendu and Asutosh highlights their "Bitter Half" link, and clicking Astha/Subhashree/Arpita highlights the "3 Musketeers" joke.
 - **What NOT to Copy**: Sinister dark sci-fi palette; our family tree is warm, handwritten, and filled with affectionate humor.
 - **Implementation Approach**: SVG node-link graph with Framer Motion spring physics and interactive character selection state.
 

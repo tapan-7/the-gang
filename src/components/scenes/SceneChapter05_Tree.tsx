@@ -23,8 +23,8 @@ export const SceneChapter05_Tree: React.FC = () => {
       members: ["shyamalendu", "asutosh"],
     },
     {
-      title: "The 2 Musketeers",
-      description: "Astha, Subhashree, and Arpita—the unstoppable trio of sisters and event coordinators (preserving original gang logic!).",
+      title: "The 3 Musketeers",
+      description: "Astha, Subhashree, and Arpita—the iconic trio of sisters and event masterminds.",
       members: ["astha", "subhashree", "arpita"],
     },
     {

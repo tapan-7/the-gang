@@ -1030,7 +1030,7 @@ Known relationships and jokes:
 - Dushmanta and Niyaz are jokingly her adopted sons.
 - Shyamalendu and Asutosh are described as "bitter half".
 - Paresh and Dushmanta are jokingly husband and wife.
-- Subhashree, Astha, and Arpita are referred to as the "2 musketeers" by the group.
+- Subhashree, Astha, and Arpita are referred to as the "3 Musketeers" by the group.
 
 Preserve the original wording of the jokes without attempting to correct their logic.
 

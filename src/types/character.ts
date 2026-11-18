@@ -6,7 +6,7 @@ export interface SignatureProp {
 
 export interface RelationshipLink {
   targetId: string;
-  label: string; // e.g. "Proud Adopted Son", "Bitter Half", "The 2 Musketeers"
+  label: string; // e.g. "Proud Adopted Son", "Bitter Half", "The 3 Musketeers"
   context: string;
 }
 

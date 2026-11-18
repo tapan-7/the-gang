@@ -172,7 +172,7 @@ export interface Character {
   insideJokes: string[];
   relationships: {
     targetCharacterId: string;
-    label: string; // e.g. 'Adopted Son', 'Bitter Half', '2 Musketeers'
+    label: string; // e.g. 'Adopted Son', 'Bitter Half', '3 Musketeers'
     humorousContext: string;
   }[];
   tributes?: {

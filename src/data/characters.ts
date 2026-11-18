@@ -97,8 +97,8 @@ export const CHARACTERS: Character[] = [
     ],
     insideJokes: ["Maobadi Commander", "Small RAM", "Follow the leader"],
     relationships: [
-      { targetId: "subhashree", label: "The 2 Musketeers (Co-Directors)", context: "The unstoppable event coordination committee." },
-      { targetId: "arpita", label: "The 2 Musketeers", context: "Part of the iconic three-person trio." }
+      { targetId: "subhashree", label: "The 3 Musketeers (Co-Directors)", context: "The unstoppable event coordination committee." },
+      { targetId: "arpita", label: "The 3 Musketeers", context: "Part of the iconic three-person trio." }
     ],
     avatarColor: "#9AA48D",
     placeholderSvg: "astha",
@@ -174,8 +174,8 @@ export const CHARACTERS: Character[] = [
     relationships: [
       { targetId: "dushmanta", label: "Proud Adopted Son", context: "Maternal affection and teasing." },
       { targetId: "niyaz", label: "Proud Adopted Son", context: "Endless caring for the group's youngest." },
-      { targetId: "astha", label: "The 2 Musketeers", context: "The core trio of sisters." },
-      { targetId: "subhashree", label: "The 2 Musketeers", context: "Cherished friendship and trust." }
+      { targetId: "astha", label: "The 3 Musketeers", context: "The core trio of sisters." },
+      { targetId: "subhashree", label: "The 3 Musketeers", context: "Cherished friendship and trust." }
     ],
     quotes: [
       {
@@ -205,9 +205,9 @@ export const CHARACTERS: Character[] = [
       { name: "Friendly Croco Mascot", icon: "alligator", description: "Charming, friendly original doodle mascot." },
       { name: "Glue Gun & Decorative Ribbon", icon: "tape", description: "Crafting perfection." }
     ],
-    insideJokes: ["Croco", "The 2 Musketeers", "Endless debate with Soumya"],
+    insideJokes: ["Croco", "The 3 Musketeers", "Endless debate with Soumya"],
     relationships: [
-      { targetId: "astha", label: "The 2 Musketeers (Co-Directors)", context: "Masterminds of decoration and logistics." },
+      { targetId: "astha", label: "The 3 Musketeers (Co-Directors)", context: "Masterminds of decoration and logistics." },
       { targetId: "soumya", label: "Friendly Sparring Partners", context: "Endless entertaining debates on tech and life." }
     ],
     avatarColor: "#8199A8",
