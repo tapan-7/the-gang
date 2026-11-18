@@ -30,6 +30,7 @@ export interface Character {
   quotes?: CharacterQuote[];
   avatarColor: string;
   placeholderSvg: string; // Key or SVG identifier
-  realPhotos?: string[]; // Phase 8 real assets
+  image?: string; // Direct portrait image path (e.g. '/Office/dushmanta.jpg')
+  realPhotos?: string[]; // Additional real assets
 }
 

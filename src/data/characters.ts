@@ -25,7 +25,8 @@ export const CHARACTERS: Character[] = [
       { targetId: "shyamalendu", label: "Khandagiri Partners", context: "Affectionate private gang banter." }
     ],
     avatarColor: "#D9B76B",
-    placeholderSvg: "dushmanta"
+    placeholderSvg: "dushmanta",
+    image: "/Office/dushmanta.jpg"
   },
   {
     id: "paresh",
@@ -49,7 +50,8 @@ export const CHARACTERS: Character[] = [
       { targetId: "dushmanta", label: "Bickering Roommates", context: "Room partners and culinary duo." }
     ],
     avatarColor: "#C96E59",
-    placeholderSvg: "paresh"
+    placeholderSvg: "paresh",
+    image: "/Office/paresh.jpg"
   },
   {
     id: "shyamalendu",
@@ -73,7 +75,8 @@ export const CHARACTERS: Character[] = [
       { targetId: "asutosh", label: "Bitter Half", context: "Classic comedy duo: endless explanations meeting gentle vegetable zen." }
     ],
     avatarColor: "#8199A8",
-    placeholderSvg: "shyamalendu"
+    placeholderSvg: "shyamalendu",
+    image: "/Office/shyamalendu.jpg"
   },
   {
     id: "astha",
@@ -98,7 +101,8 @@ export const CHARACTERS: Character[] = [
       { targetId: "arpita", label: "The 2 Musketeers", context: "Part of the iconic three-person trio." }
     ],
     avatarColor: "#9AA48D",
-    placeholderSvg: "astha"
+    placeholderSvg: "astha",
+    image: "/Office/astha.jpg"
   },
   {
     id: "asutosh",
@@ -121,7 +125,8 @@ export const CHARACTERS: Character[] = [
       { targetId: "shyamalendu", label: "Bitter Half", context: "The zen vegetable counterweight to Syama's fiery whiteboards." }
     ],
     avatarColor: "#79846C",
-    placeholderSvg: "asutosh"
+    placeholderSvg: "asutosh",
+    image: "/Office/asutosh.jpg"
   },
   {
     id: "ashutosh",
@@ -145,7 +150,8 @@ export const CHARACTERS: Character[] = [
       { targetId: "tapan", label: "Quiet Comrades", context: "Mutual appreciation for peaceful presence." }
     ],
     avatarColor: "#D9B76B",
-    placeholderSvg: "ashutosh"
+    placeholderSvg: "ashutosh",
+    image: "/Office/ashutosh.jpg"
   },
   {
     id: "arpita",
@@ -179,7 +185,8 @@ export const CHARACTERS: Character[] = [
       }
     ],
     avatarColor: "#C96E59",
-    placeholderSvg: "arpita"
+    placeholderSvg: "arpita",
+    image: "/Office/arpita.jpg"
   },
   {
     id: "subhashree",
@@ -204,7 +211,8 @@ export const CHARACTERS: Character[] = [
       { targetId: "soumya", label: "Friendly Sparring Partners", context: "Endless entertaining debates on tech and life." }
     ],
     avatarColor: "#8199A8",
-    placeholderSvg: "subhashree"
+    placeholderSvg: "subhashree",
+    image: "/Office/subhashree.jpg"
   },
   {
     id: "soumya",
@@ -235,7 +243,8 @@ export const CHARACTERS: Character[] = [
       }
     ],
     avatarColor: "#59483D",
-    placeholderSvg: "soumya"
+    placeholderSvg: "soumya",
+    image: "/Office/soumya.jpg"
   },
   {
     id: "niyaz",
@@ -258,7 +267,8 @@ export const CHARACTERS: Character[] = [
       { targetId: "arpita", label: "Proud Adopted Son", context: "Pampered younger brother of the group." }
     ],
     avatarColor: "#DF8D7A",
-    placeholderSvg: "niyaz"
+    placeholderSvg: "niyaz",
+    image: "/Office/niyaz.jpg"
   },
   {
     id: "jayashree",
@@ -281,7 +291,8 @@ export const CHARACTERS: Character[] = [
       { targetId: "arpita", label: "Kitchen Allies", context: "Mutual food appreciation and morning check-ins." }
     ],
     avatarColor: "#9AA48D",
-    placeholderSvg: "jayashree"
+    placeholderSvg: "jayashree",
+    image: "/Office/jayashree.png"
   },
   {
     id: "tanu",
@@ -304,7 +315,8 @@ export const CHARACTERS: Character[] = [
       { targetId: "astha", label: "Preparation Partner", context: "Worked side-by-side on Gopalpur decorations." }
     ],
     avatarColor: "#D9B76B",
-    placeholderSvg: "tanu"
+    placeholderSvg: "tanu",
+    image: "/Office/tanu.jpg"
   },
   {
     id: "tapan",
@@ -330,7 +342,8 @@ export const CHARACTERS: Character[] = [
       { targetId: "soumya", label: "Poetic Subject", context: "Subject of Soumya's famous character poem." }
     ],
     avatarColor: "#C96E59",
-    placeholderSvg: "tapan"
+    placeholderSvg: "tapan",
+    image: "/Office/luffy.jpg"
   },
   {
     id: "yash",
@@ -352,7 +365,7 @@ export const CHARACTERS: Character[] = [
       { targetId: "tapan", label: "Trek Companions", context: "Shared the Koraput mountain hike." }
     ],
     avatarColor: "#8199A8",
-    placeholderSvg: "yash"
+    placeholderSvg: "yash",
+    image: "/Office/yash.jpg"
   }
 ];
-
