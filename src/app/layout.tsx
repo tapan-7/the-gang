@@ -4,6 +4,7 @@ import "./globals.css";
 import { SmoothScroll } from "@/components/shell/SmoothScroll";
 import { Header } from "@/components/shell/Header";
 import { ChapterNav } from "@/components/shell/ChapterNav";
+import { LightboxProvider } from "@/context/LightboxContext";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -34,13 +35,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${caveat.variable} ${dmSans.variable}`}>
-      <body className="bg-parchment text-ink antialiased selection:bg-terracotta/20 selection:text-ink">
-        <SmoothScroll>
-          <Header />
-          <ChapterNav />
-          <main>{children}</main>
-        </SmoothScroll>
+    <html lang="en" className={`${fraunces.variable} ${caveat.variable} ${dmSans.variable}`} suppressHydrationWarning>
+      <body className="bg-parchment text-ink antialiased selection:bg-terracotta/20 selection:text-ink" suppressHydrationWarning>
+        <LightboxProvider>
+          <SmoothScroll>
+            <Header />
+            <ChapterNav />
+            <main>{children}</main>
+          </SmoothScroll>
+        </LightboxProvider>
       </body>
     </html>
   );

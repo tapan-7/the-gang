@@ -1,7 +1,10 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { WashiTape } from "./WashiTape";
+import { useLightbox } from "@/context/LightboxContext";
 
 interface PolaroidProps {
   caption?: string;
@@ -11,6 +14,8 @@ interface PolaroidProps {
   tapePosition?: "top-left" | "top-right" | "top-center" | "none";
   className?: string;
   imageSrc?: string;
+  photoId?: string;
+  onClick?: () => void;
   children?: React.ReactNode;
   aspectRatio?: "square" | "portrait" | "video";
 }
@@ -23,9 +28,13 @@ export const Polaroid: React.FC<PolaroidProps> = ({
   tapePosition = "top-center",
   className,
   imageSrc,
+  photoId,
+  onClick,
   children,
   aspectRatio = "square",
 }) => {
+  const { openLightbox } = useLightbox();
+
   const aspectStyles = {
     square: "aspect-square",
     portrait: "aspect-[4/5]",
@@ -39,17 +48,31 @@ export const Polaroid: React.FC<PolaroidProps> = ({
     none: "hidden",
   };
 
+  const handleClick = () => {
+    if (onClick) {
+      onClick();
+    } else if (photoId) {
+      openLightbox(photoId);
+    } else if (imageSrc) {
+      openLightbox(imageSrc);
+    }
+  };
+
+  const isInteractive = Boolean(onClick || photoId || imageSrc);
+
   return (
     <div
+      onClick={isInteractive ? handleClick : undefined}
       style={{ transform: `rotate(${rotation}deg)` }}
       className={cn(
-        "group relative bg-paper-card p-3 sm:p-4 rounded-polaroid shadow-polaroid hover:shadow-polaroid-hover transition-all duration-300 ease-out hover:scale-[1.02] hover:z-30",
+        "group relative bg-paper-card p-3 sm:p-4 rounded-polaroid shadow-polaroid hover:shadow-polaroid-hover transition-all duration-300 ease-out hover:scale-[1.03] hover:z-30",
+        isInteractive && "cursor-pointer",
         className
       )}
     >
       {/* Optional Washi Tape */}
       {tapePosition !== "none" && (
-        <div className={cn("absolute z-20", tapePositions[tapePosition])}>
+        <div className={cn("absolute z-20 pointer-events-none", tapePositions[tapePosition])}>
           <WashiTape color={tapeColor} width="w-20 sm:w-24" />
         </div>
       )}
@@ -88,6 +111,13 @@ export const Polaroid: React.FC<PolaroidProps> = ({
               <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0z" />
             </svg>
             <span className="font-handwritten text-lg text-ink-muted">Photo Placeholder</span>
+          </div>
+        )}
+
+        {/* Subtle click indicator icon on hover */}
+        {isInteractive && (
+          <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-90 transition-opacity bg-black/60 text-white p-1 rounded-full text-xs">
+            🔍
           </div>
         )}
       </div>

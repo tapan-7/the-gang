@@ -323,20 +323,21 @@ export const CHARACTERS: Character[] = [
     name: "Tapan",
     nickname: "Luffy",
     title: "The Invisible Man",
-    tagline: "Absent in the drama. Present when you need someone most.",
-    description: "Calm, observant, drama-free listener and basketball enthusiast with a legendary appetite. Known for stepping quietly into the background—yet consistently showing up with genuine care when friends need real support. (Original character; distinct from anime Luffy).",
+    tagline: "Master of teasing silence. Present when you need someone most.",
+    description: "Observant listener and volleyball player with a dry sense of humor, playful rage-baiting teasing, and a legendary appetite. Known for stepping quietly into the background—yet consistently showing up with genuine care when friends need real support. (Original character; distinct from anime Luffy).",
     personality: [
-      "Zen listener who avoids petty drama and keeps things grounded",
-      "Calm, patient, and quietly handles problems",
-      "Legendary appetite at feasts and cafeteria tables",
-      "Shows care through selfless actions (e.g. Koraput trek leg massage)"
+      "Master of dry humor and subtle rage-baiting banter that gets everyone riled up",
+      "Calm, observant listener who avoids petty drama and keeps things grounded",
+      "Passionate volleyball player with natural athletic instincts",
+      "Legendary appetite at cafeteria tables and room feasts",
+      "Shows care through selfless quiet actions (e.g. Koraput trek leg massage)"
     ],
     signatureProps: [
-      { name: "Basketball", icon: "basketball", description: "His favorite sport and flow state." },
+      { name: "Volleyball", icon: "volleyball", description: "His favorite sport and flow state." },
       { name: "Snack Bento", icon: "bento", description: "Fueling the legendary appetite." },
-      { name: "Quiet Stealth Aura", icon: "stealth", description: "Appears and disappears without a sound." }
+      { name: "Quiet Smirk", icon: "stealth", description: "Delivering one-liners before fading into the background." }
     ],
-    insideJokes: ["The Invisible Man", "Appetite champion", "Trek hero"],
+    insideJokes: ["The Invisible Man", "Teasing master", "Appetite champion", "Volleyball spike", "Trek hero"],
     relationships: [
       { targetId: "arpita", label: "Silent Protector", context: "Tended to Arpita's leg during the grueling mountain trek." },
       { targetId: "soumya", label: "Poetic Subject", context: "Subject of Soumya's famous character poem." }

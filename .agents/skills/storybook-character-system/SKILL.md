@@ -49,7 +49,7 @@ Your responsibility is to ensure that all 14 individuals are depicted with warmt
     - Persona: The newest arrival; quiet observer learning the group's chaotic lore and inside jokes; story still unfolding.
     - Props: Fresh blank journal, instant camera, "Friendship Loading..." progress bar.
 13. **Tapan / Luffy ("The Invisible Man")**:
-    - Persona: Calm, observant listener, basketball lover, drama-free problem solver; quiet entrance and exit; hearty appetite; shows love through quiet supportive actions (e.g. trekking massage for Arpita).
+    - Persona: Calm, observant listener, volleyball lover, drama-free problem solver; quiet entrance and exit; hearty appetite; shows love through quiet supportive actions (e.g. trekking massage for Arpita).
     - Props: Basketball, snack bento, quiet stealth aura, walking stick.
     - *NOTE*: Original character aesthetic; never copy One Piece's anime Luffy.
 14. **Yash ("The Occasional Gang Member")**:

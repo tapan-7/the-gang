@@ -92,13 +92,13 @@ export const SceneCover: React.FC = () => {
       {/* Tucked Peeking Polaroids in Background (Revealed as cover opens) */}
       <div
         ref={polaroidsRef}
-        className="absolute inset-0 max-w-4xl mx-auto flex items-center justify-between pointer-events-none px-6 sm:px-12 opacity-85 transition-opacity"
+        className="absolute inset-0 max-w-4xl mx-auto flex items-center justify-between pointer-events-auto px-6 sm:px-12 opacity-85 transition-opacity"
       >
         <div className="hidden lg:block -translate-x-12 -rotate-6">
           <Polaroid
-            imageSrc="/bachelorette/IMG-20261116-WA0002.jpg"
+            imageSrc="/gopalpur/IMG-20260111-WA0609.jpg"
             caption="Gopalpur Sunrise 🌊"
-            subcaption="UNO-2026 • Mayfair"
+            subcaption="January 11, 2026 • Beach Walk"
             rotation={-6}
             tapeColor="mustard"
             tapePosition="top-left"
@@ -109,7 +109,7 @@ export const SceneCover: React.FC = () => {
           <Polaroid
             imageSrc="/lunch/IMG_20260220_132922747.jpg"
             caption="The Merged Tables 🍱"
-            subcaption="1:00 PM • Cafeteria"
+            subcaption="1:00 PM • Cafeteria Merger"
             rotation={8}
             tapeColor="dusty-blue"
             tapePosition="top-right"
@@ -171,12 +171,16 @@ export const SceneCover: React.FC = () => {
           <div className="absolute left-6 top-0 bottom-0 w-2 border-r-2 border-dashed border-[#D9B76B]/30 pointer-events-none" />
 
           {/* The Brass Latch Closure on Right Edge */}
-          <div
-            ref={latchRef}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 w-10 h-20 bg-gradient-to-r from-[#D9B76B] to-[#B48F40] rounded-r-md shadow-lg border border-[#8C6D27] flex items-center justify-center z-40"
+          <button
+            ref={latchRef as any}
+            onClick={() => {
+              window.scrollBy({ top: window.innerHeight * 0.8, behavior: "smooth" });
+            }}
+            aria-label="Unlatch and open memory book"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 w-11 h-20 bg-gradient-to-r from-[#D9B76B] to-[#B48F40] rounded-r-md shadow-lg border border-[#8C6D27] flex items-center justify-center z-40 cursor-pointer hover:scale-105 transition-transform group"
           >
-            <div className="w-3 h-3 rounded-full bg-[#3D2C24] border border-[#D9B76B]" />
-          </div>
+            <div className="w-3.5 h-3.5 rounded-full bg-[#3D2C24] border-2 border-[#D9B76B] group-hover:scale-110 transition-transform" />
+          </button>
 
           {/* Top Cover Washi Tape & Date Stamp */}
           <div className="relative z-10 flex items-start justify-between">
@@ -222,7 +226,7 @@ export const SceneCover: React.FC = () => {
                 <CharacterDoodle type="eggplant" size={24} className="text-mustard-light" />
               </span>
               <span className="cover-doodle">
-                <CharacterDoodle type="basketball" size={24} className="text-mustard-light" />
+                <CharacterDoodle type="volleyball" size={24} className="text-mustard-light" />
               </span>
               <span className="cover-doodle hidden sm:inline-block">
                 <CharacterDoodle type="cat" size={24} className="text-mustard-light" />

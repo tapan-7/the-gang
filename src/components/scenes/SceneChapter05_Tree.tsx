@@ -41,7 +41,7 @@ export const SceneChapter05_Tree: React.FC = () => {
 
   return (
     <section
-      id="chapter-05"
+      id="chapter-06"
       className="relative min-h-screen w-full bg-[#E8DDC9] py-28 px-4 sm:px-8 border-t border-ink/10"
     >
       {/* Background Kraft Grid */}
@@ -52,11 +52,11 @@ export const SceneChapter05_Tree: React.FC = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-3 mb-2">
             <span className="font-handwritten text-2xl text-terracotta font-bold">
-              Chapter 05
+              Chapter 06
             </span>
             <span className="w-1.5 h-1.5 rounded-full bg-ink/20" />
             <span className="font-sans text-xs tracking-widest text-ink-muted uppercase">
-              The Constellation of Lore
+              Evergreen Relationship Constellation
             </span>
           </div>
 

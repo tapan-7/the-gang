@@ -2,7 +2,7 @@ import React from "react";
 import { cn } from "@/lib/utils";
 
 interface CharacterDoodleProps {
-  type: string; // 'calculator' | 'receipt' | 'basketball' | 'eggplant' | 'cat' | 'chef' | 'board' | 'scissors' | 'cloud' | 'penguin' | 'coffee' | 'cup' | 'sparkles'
+  type: string; // 'calculator' | 'receipt' | 'volleyball' | 'eggplant' | 'cat' | 'chef' | 'board' | 'scissors' | 'cloud' | 'penguin' | 'coffee' | 'cup' | 'sparkles'
   className?: string;
   size?: number;
 }
@@ -45,11 +45,16 @@ export const CharacterDoodle: React.FC<CharacterDoodleProps> = ({
           <circle cx="31" cy="33" r="1.5" fill="currentColor" />
         </svg>
       );
-    case "basketball":
+    case "volleyball":
       return (
         <svg {...props}>
           <circle cx="24" cy="24" r="18" />
-          <path d="M6 24h36M24 6v36M11.5 11.5c6 6 6 19 0 25M36.5 11.5c-6 6-6 19 0 25" />
+          <path d="M12 11c6 3 12 1 12-5" />
+          <path d="M16 17c6 3 10-1 9-9" />
+          <path d="M37 19c-5 4-11 3-13-3" />
+          <path d="M33 26c-5 4-8-1-11-7" />
+          <path d="M23 37c-1-6 2-11 8-11" />
+          <path d="M16 32c-1-6 4-9 11-8" />
         </svg>
       );
     case "eggplant":

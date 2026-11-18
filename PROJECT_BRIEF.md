@@ -31,7 +31,7 @@ The experience brings together two harmonious aesthetics:
 10. **Niyaz** ("The Delulu Romantic") — Shy writer, cat enthusiast, romantic daydreamer, beloved youngest brother.
 11. **Jayashree** ("The Morning Inspector") — Lunchbox inspector, morning check-ins, stern outside/warm inside.
 12. **Tanu** ("The Newest Chapter") — Newest member, learning the group lore, "Friendship loading...".
-13. **Tapan / Luffy** ("The Invisible Man") — Calm listener, basketball enthusiast, quiet supporter (Koraput leg massage). *(Original character; not anime Luffy)*.
+13. **Tapan / Luffy** ("The Invisible Man") — Calm listener, volleyball enthusiast, quiet supporter (Koraput leg massage). *(Original character; not anime Luffy)*.
 14. **Yash** ("The Occasional Gang Member") — Outside friend, Koraput trek participant.
 
 ---

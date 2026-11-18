@@ -18,7 +18,7 @@ This storyboard maps out the complete visual journey across all 9 chapters, deta
 - **Scroll Interaction (Pin Duration: `+=120vh`)**:
   - As user scrolls, the brass latch clicks open and fades out.
   - The heavy front cover turns in 3D perspective (`rotateY(-90deg)`), casting a dynamic shadow across the parchment desk.
-  - Character doodles (small ink sketches of a basketball, a vegetable, a calculator, a cat, an apron) bounce outward onto the margins.
+  - Character doodles (small ink sketches of a volleyball, a vegetable, a calculator, a cat, an apron) bounce outward onto the margins.
   - The first interior page unfolds smoothly, dissolving into Chapter 01.
 - **Mobile Adaptation**:
   - Single portrait scrapbook cover; instead of wide 3D swing, the cover slides upward with a gentle paper-curl effect (`transform: translateY(-80%) scale(1.05)`), revealing the first page immediately without scroll friction.
@@ -61,7 +61,7 @@ This storyboard maps out the complete visual journey across all 9 chapters, deta
     - Subhashree playfully debating with Soumya.
     - Jayashree inspecting the morning snacks.
     - Tanu looking around with a fresh notebook ("Friendship loading...").
-    - Tapan quietly appearing near the food with a basketball.
+    - Tapan quietly appearing near the food with a volleyball.
     - Yash lacing up hiking boots.
 - **Mobile Adaptation**:
   - Staggered 2-column masonry grid of character snapshot cards with playful tilt angles.

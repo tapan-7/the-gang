@@ -64,7 +64,7 @@ The visual aesthetic of **THE GANG** captures the feeling of stumbling upon a ch
   - Asutosh gently cradling a single eggplant with zen-like serenity.
   - Ashutosh daydreaming inside a soft illustrated cloud over a feast table.
   - Arpita smiling warmly with tiffin boxes surrounded by heart stickers and dance ribbons.
-  - Tapan peacefully fading slightly into the background holding a basketball and a snack.
+  - Tapan peacefully fading slightly into the background holding a volleyball and a snack.
 
 ---
 
