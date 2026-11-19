@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
           className="group inline-flex items-center gap-2 hover:opacity-85 transition-opacity"
         >
           <span className="font-display font-black text-2xl tracking-tight text-ink">
-            THE GANG
+            UNO-2026
           </span>
           <span className="font-handwritten text-lg text-terracotta hidden sm:inline">
             • A little chaos. A lot of memories.
@@ -20,7 +20,7 @@ export const Header: React.FC = () => {
       </div>
 
       <div className="pointer-events-auto mr-32 sm:mr-40 hidden md:block">
-        <StampBadge text="UNO-2026" subtext="EST. GOPALPUR" color="red" rotation={-6} />
+        <StampBadge text="UNO-2026" subtext="MEMORY BOOK" color="red" rotation={-6} />
       </div>
     </header>
   );

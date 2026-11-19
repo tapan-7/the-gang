@@ -25,7 +25,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "THE GANG — A little chaos. A lot of memories.",
+  title: "UNO-2026 — A little chaos. A lot of memories.",
   description: "An illustrated, cinematic, interactive digital memory book documenting our group of 14 friends.",
 };
 
